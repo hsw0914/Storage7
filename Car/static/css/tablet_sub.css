@@ -1,0 +1,76 @@
+@media all and (min-width: 720px) and (max-width: 1023px) {
+    .sub_ani {
+        max-height: 300px;
+    }
+
+    .main_con {
+        padding: 0;
+    }
+
+    .main_con > .sub_menu_wrap {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        float: none;
+        margin: 0;
+    }
+
+    .main_con > .sub_menu_wrap > .sub_menu h1 {
+        display: none;
+    }
+
+    .sub_menu_wrap ul:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .main_con > .sub_menu_wrap > .sub_menu li {
+        float: left;
+        padding: 0;
+        text-align: center;
+        line-height:50px;
+        color: #fff;
+    }
+
+    .main_con > .sub_menu_wrap > .sub_menu .company_list li {  width: 20%;  }
+    .main_con > .sub_menu_wrap > .sub_menu .technical_list li {  width: 50%;  }
+    .main_con > .sub_menu_wrap > .sub_menu .quotation_list {  display: none;  }
+    .main_con > .sub_menu_wrap > .sub_menu .ascenter_list li {  width: 33.333%;  }
+    .main_con > .sub_menu_wrap > .sub_menu .customer_list li {  width: 25%;  }
+
+
+
+    .main_con > .sub_menu_wrap > .tel {
+        display: none;
+    }
+
+    .main_con img {
+         width: 100%;
+    }
+
+    .main_con > .sub_con {
+        float: none;
+        width: 100%;
+    }
+
+    .main_con > .sub_con > .sub_con_header {
+        display: none;
+    }
+
+    .main_con > .sub_con > .sub_con_images > img {
+        width: 100%;
+    }
+
+    .main_con > .sub_con > .company > img {  content: url("/static/img/company/intro01_m.jpg"); }
+    .main_con > .sub_con > .vision > img {  content: url("/static/img/company/intro02_m.jpg"); }
+
+    .main_con .form-list .area-label, .main_con .form-list .title-label {
+        border: 0;
+    }
+
+    .main_con .form-list #title, .main_con .form-list textarea {
+        width: 98%;
+        margin: 1%;
+    }
+}

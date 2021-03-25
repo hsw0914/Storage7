@@ -1,0 +1,115 @@
+@media all and (min-width: 720px) and (max-width: 1023px) {
+    .main_con_wrap {
+        font-size: 1em;
+        padding: 0;
+    }
+    /* slide */
+
+    .ani-ul {
+        height: 100%;
+    }
+
+    .ani-li img {
+        top: 0;
+    }
+
+    .ani-index {
+        width: 248px;
+    }
+
+    .slide-text-wrap {
+        padding: 30px;
+        font-size: .6em;
+    }
+
+    /* important-skill */
+
+    .important-skill {
+        margin: 0 ;
+    }
+
+    .important-skill li {
+        float: none;
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .important-skill-background {
+        height: 100%;
+    }
+
+    /*technical*/
+
+    .technical:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .technical li {
+        float: left;
+        width: 48%;
+        margin: 20px 1%;
+        border: 1px solid #5a5a5a;
+    }
+
+    .technical-img-wrap {
+        height: 150px;
+    }
+
+    .technical-text {
+        padding: 10px;
+    }
+
+    /*footer*/
+
+    footer {
+        padding: 0;
+    }
+
+    .footer_wrap {
+        padding: 10px 0;
+    }
+
+    footer ul {
+        float: none;
+        border-bottom:1px solid #fff;
+        margin-bottom:30px;
+        display: none;
+    }
+
+    footer li {
+        width: 100%;
+        line-height: 50px;
+        padding: 0;
+        float: none;
+        text-align: center;
+    }
+
+    footer li a {
+        padding: 10px 0;
+        border-right:0;
+    }
+
+    footer .logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .footer-btn {
+        position: relative;
+        bottom: auto;
+        margin:30px 0 0 0;
+    }
+
+    .footer-btn a {
+        width: 48%;
+        margin: 10px 1%;
+        float: left;
+    }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/app.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        html,body {
+            position: relative;
+            height: 100%;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            line-height: 30px;
+            text-align: center;
+            background: #000;
+            color: #fff;
+            font-size: .8em;
+        }
+
+        input {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+asdasdas
+    <footer><input type="checkbox" id="chk" name="chk"><label for="chk"> 오늘 하루동안 안보기</label></footer>
+
+<script>
+    $("#chk").on('click', function () {
+        window.close()
+    })
+</script>
+</body>
+</html>

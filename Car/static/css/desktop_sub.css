@@ -1,0 +1,180 @@
+.sub_ani {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-height: 180px;
+    max-height: 680px;
+}
+
+.sub_ani embed {
+    width: 100%;
+}
+
+.main_con {
+    width: 100%;
+    background: #fff;
+    padding: 20px 70px;
+}
+
+.main_con:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main_con > .sub_menu_wrap {
+    width: 20%;
+    background: #111;
+    color: #fff;
+    float: left;
+    margin-right: 3%;
+}
+
+.main_con > .sub_menu_wrap > .sub_menu h1 {
+    width: 100%;
+    font-size: 1.5em;
+    display: block;
+    line-height: 120px;
+    border-bottom: 1px solid #5a5a5a;
+    background: #000;
+    text-align: center;
+}
+
+.main_con > .sub_menu_wrap > .sub_menu li {
+    line-height: 60px;
+    color: #fff;
+    border-bottom: 1px solid #5a5a5a;
+    font-weight: bold;
+    transition: all .5s;
+    text-align: center;
+}
+
+.main_con > .sub_menu_wrap > .sub_menu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main_con > .sub_menu_wrap > .sub_menu li:hover {
+    background: rgb(0,165,227);
+}
+
+
+.main_con > .sub_menu_wrap > .tel {
+    padding:15px;
+    color: #bebebe;
+    letter-spacing: -1px;
+}
+
+.main_con > .sub_menu_wrap > .tel * {
+    margin: 4px 0;
+    font-weight: normal;
+}
+
+.main_con > .sub_menu_wrap > .tel h1 {
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+.main_con > .sub_con > .sub_con_header {
+    position: relative;
+    border-bottom: 2px solid #5a5a5a;
+    padding:20px 0;
+}
+
+.main_con > .sub_con > .sub_con_header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main_con > .sub_con > .sub_con_header h1 {
+    font-size: 3em;
+}
+
+.main_con > .sub_con > .sub_con_header ul {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.main_con > .sub_con > .sub_con_header ul:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main_con > .sub_con > .sub_con_header li {
+    float: left;
+}
+
+
+.main_con > .sub_con > .sub_con_header li a:not(.color-red):after {
+    content: '>';
+    margin: 0 15px;
+    float: right;
+    display: block;
+}
+
+.main_con > .sub_con {
+    width: 77%;
+    float: right;
+}
+
+.main_con > .sub_con > .sub_con_images {
+    margin-top:20px;
+}
+
+.main_con > .sub_con > .sub_con_images img {
+    width: 90%;
+}
+
+.guest{
+    padding: 40px 0;
+}
+
+.main_con .form-list {
+    width: 100%;
+    padding:25px 0;
+    border-bottom: 1px solid #5a5a5a;
+}
+
+.main_con .form-list label {
+    display: inline-block;
+    width: 100px;
+    border-right:1px solid #5a5a5a;
+    padding:0 10px;
+}
+
+.main_con .form-list input, .main_con .form-list select, .main_con .form-list textarea,.main_con .production input[type=submit]{
+    line-height:30px;
+    border-radius: 3px;
+    border:1px solid #bcbcbc;
+    height: 30px;
+    vertical-align: middle;
+    padding:0 10px;
+}
+
+.main_con .form-list select, .main_con .form-list input:not(.num), .main_con .form-list textarea {
+    margin-left:20px;
+}
+
+.main_con .form-list #title {
+    width:60%;
+}
+
+.main_con .form-list textarea {
+    width: 992px; height: 272px;
+}
+
+.main_con .production input[type=submit] {
+    margin:25px 0;
+    float: right;
+    background: none;
+}
+
+.main_con .production:after {
+    content: '';
+    clear: both;
+    display: block;
+}

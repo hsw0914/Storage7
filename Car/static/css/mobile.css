@@ -1,0 +1,173 @@
+@media ( max-width: 719px ) {
+
+    .main_con_wrap {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    /* slide */
+
+    .ani-ul {
+        height: 100%;
+    }
+
+    .ani-li img {
+        top: 0;
+    }
+
+    .ani-index {
+        width: 248px;
+    }
+
+    .slide-text-wrap {
+        padding: 10px;
+    }
+
+    .slide-text-wrap h1 {
+        font-size: 2em;
+    }
+
+    .slide-text-wrap h3 {
+        font-size: 1em;
+    }
+
+    .slide-text-wrap hr {
+        width: 0;
+        margin: 10px 0;
+        height: 1px;
+        background: #000;
+        border: 0
+    }
+
+    .text-white > * {
+        color: #fff;
+    }
+
+    .text-white > hr {
+        background: #fff;
+    }
+
+    /*MENU*/
+    .menu-scroll {
+        position: relative;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .menu {
+        margin: 20px 0;
+        width: 455px;
+        font-size: .7em;
+    }
+
+    .menu li {
+        margin:0 3px;
+        !important;
+    }
+
+    /* important-skill */
+
+    .important-skill {
+        margin: 0 ;
+    }
+
+    .important-skill li {
+        float: none;
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .important-skill-img-wrap {
+        height: 180px;
+    }
+
+    .important-skill-background {
+        height: 180px;
+    }
+
+    /* pannel */
+
+    .pannel {
+        height: 180px;
+    }
+
+    /*technical*/
+
+    .technical {
+        width: 100%;
+        margin: 0;
+    }
+
+    .technical li {
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid #5a5a5a;
+    }
+
+    .technical-img-wrap {
+        height: 150px;
+    }
+
+    .technical-text {
+        padding: 10px;
+    }
+
+    /*footer*/
+
+    footer {
+        padding: 0;
+    }
+
+    .footer_wrap {
+        padding: 10px 0;
+    }
+
+    footer ul {
+        float: none;
+        border-bottom:1px solid #fff;
+        margin-bottom:30px;
+        display: none;
+    }
+
+    footer li {
+        width: 100%;
+        line-height: 50px;
+        padding: 0;
+        float: none;
+        text-align: center;
+    }
+
+    footer li a {
+        padding: 10px 0;
+        border-right:0;
+    }
+
+    footer .logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    footer .logo img {
+        width: 25%;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .footer-btn {
+        position: relative;
+        bottom: auto;
+        margin:20px 0 0 0;
+    }
+
+    .footer-btn a {
+        width: 48%;
+        margin: 10px 1%;
+        float: left;
+        line-height: 40px;
+        height: 40px;
+    }
+}

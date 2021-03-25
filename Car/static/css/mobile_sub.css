@@ -1,0 +1,48 @@
+@media ( max-width: 719px ) {
+    .sub_ani {
+        min-height: 100px;
+        max-height: 200px;
+    }
+
+    .sub_menu_wrap {
+        display: none;
+    }
+
+    .main_con {
+        padding: 0;
+    }
+
+    .main_con > .sub_con {
+        float: none;
+        width: 100%;
+    }
+
+    .main_con > .sub_con > .sub_con_header {
+        display: none;
+    }
+
+
+    .main_con > .sub_con > .sub_con_images > img {
+        width: 100%;
+    }
+
+    .main_con > .sub_con > .company > img {  content: url("/static/img/company/intro01_m.jpg"); }
+    .main_con > .sub_con > .vision > img {  content: url("/static/img/company/intro02_m.jpg"); }
+    .main_con > .sub_con > .as_index > img {  content: url("/static/img/ascenter/center02_m.jpg"); }
+
+    .main_con .form-list label {
+        border: 0;
+        display: block;
+        font-size: 1.1em;
+        margin: 10px 0;
+    }
+
+    .main_con .form-list input:not(.num), .main_con .form-list textarea, .main_con .form-list #title, .main_con .form-list .amount {
+        width: 98%;
+        margin: 1%;
+    }
+
+    .main_con .production input[type=submit] {
+        width: 100%;
+    }
+}
